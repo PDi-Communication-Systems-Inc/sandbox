@@ -10,3 +10,5 @@ This is a throwaway git for testing how to handle various git processes -- do no
 "I decry the current tendency to seek patents on algorithms. There are better ways to earn a living than to prevent other people from making use of one's contributions to computer science." - Donald Knuth
 
 “...if you aren't, at any given time, scandalized by code you wrote five or even three years ago, you're not learning anywhere near enough” ― Nick Black
+
+"I decry the current tendency to seek patents on algorithms. There are better ways to earn a living than to prevent other people from making use of one's contributions to computer science." - Donald Knuth
