@@ -1,0 +1,30 @@
+Some groups argue against the use of permanent branches saying that you
+should build the differenes between what would have been the different
+branches into your build system.
+
+I would argue that has lead to our own set of maintenance nightmares
+under JB 4.3. In the end, the work of taking new changes in a master
+branch and putting them into a derivative branch for a key customer
+involves work. It is a matter of where you want to do that work
+and understanding the consequences of adopting one system over
+another. In this case, I think the use of permanent branches will
+make it easy to work with the AOSP build system once conflicts from
+the master into the derivative branch are resolved. There is 
+always one Activity.java not, Activity.main, Activity.customer1, 
+Activity.customer2, etc., that has to be copied to Activity.java
+by some top-level make script, this creates in essence pseudo-
+branches that are hard to keep straight, especially, when you
+started to forward changes. 
+
+So, when taking new changes from master:
+
+git checkout customer-branch
+git rebase --onto master
+
+fix conflicts
+
+git commit
+
+May need to do a git pull on branch switch, still working this out
+
+comments are welcome into this ad-hoc discussion forum 
