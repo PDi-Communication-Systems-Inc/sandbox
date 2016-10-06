@@ -8,3 +8,11 @@ This is a throwaway git for testing how to handle various git processes -- do no
 “The best programs are written so that computing machines can perform them quickly and so that human beings can understand them clearly. A programmer is ideally an essayist who works with traditional aesthetic and literary forms as well as mathematical concepts, to communicate the way that an algorithm works and to convince a reader that the results will be correct.”  - Donald Knuth
 
 “The most important property of a program is whether it accomplishes the intention of its user.” ― C.A.R. Hoare
+
+"I decry the current tendency to seek patents on algorithms. There are better ways to earn a living than to prevent other people from making use of one's contributions to computer science." - Donald Knuth
+
+“...if you aren't, at any given time, scandalized by code you wrote five or even three years ago, you're not learning anywhere near enough” ― Nick Black
+
+"I decry the current tendency to seek patents on algorithms. There are better ways to earn a living than to prevent other people from making use of one's contributions to computer science." - Donald Knuth
+
+“C is quirky, flawed, and an enormous success.” ― Dennis M. Ritchie
