@@ -16,7 +16,17 @@ by some top-level make script, this creates in essence pseudo-
 branches that are hard to keep straight, especially, when you
 started to forward changes. 
 
-So, when taking new changes from master:
+So, when taking new changes from master, a gentle approach is:
+
+git checkout customer-branch
+git merge master
+
+fix conflicts
+
+git commit
+
+A less gentle approach is (if you're willing to throw away
+much of git's automatic conflict avoidance):
 
 git checkout customer-branch
 git rebase --onto master
